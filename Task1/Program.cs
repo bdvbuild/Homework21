@@ -27,7 +27,7 @@ namespace Task1
                 for (int j = 0; j < n; j++)
                 {
                     field[i, j] = r.Next(50);
-                    Console.Write("{0,2}"+" ", field[i, j]);
+                    Console.Write($"{field[i, j],2} ");
                 }
                 Console.WriteLine();
             }
